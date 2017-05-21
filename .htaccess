@@ -1,0 +1,13 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule jezyki-obce-dla-dzieci index.html
+RewriteRule oferta-kursy-jezykowe oferta.html
+RewriteRule cennik-nauka-jezykow cennik.html
+RewriteRule kontakt-szkola-jezykowa kontakt.html
+RewriteRule oferta-przedszkola przedszkola.html
+RewriteRule Facebook https://www.facebook.com/English-4-Kids-angielski-nie-tylko-dla-dzieci-249714331741390/
